@@ -35,7 +35,7 @@ export function plotlyPlotHtml(...data) {
             <head>
                 <meta charset="UTF-8">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <title></title>
+                <title>${data.at(0)?.title||""}</title>
                 <script>/**
 * plotly.js v1.58.5
 * Copyright 2012-2021, Plotly, Inc.
